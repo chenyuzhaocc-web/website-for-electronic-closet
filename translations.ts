@@ -1,0 +1,95 @@
+
+export type Language = 'en' | 'zh';
+
+export const translations = {
+  en: {
+    appName: "Wardrobe on My Phone",
+    navFeatures: "Features",
+    navPrinciples: "Principles",
+    tryDemo: "Try Demo",
+    heroBadge: "Simple • Lightweight • Stress-Free",
+    heroTitle: "A Tiny, Cozy Closet",
+    heroTitleHighlight: "Right in Your Pocket.",
+    heroSub: "Rediscover the joy of your own clothes. No social pressure, no outfit rankings, just you and your personal style collection.",
+    watchPreview: "Watch Preview",
+    featuresTitle: "Focus on What Matters",
+    featuresSub: "No fluff, just features that help you enjoy your wardrobe.",
+    feat1Title: "Total Management",
+    feat1Desc: "Add every single item without limits. Categorize, sort, and search your clothes effortlessly in a beautiful, minimal interface.",
+    feat2Title: "AI Rediscovery",
+    feat2Desc: "Let AI help you find those forgotten gems at the back of your closet. Rediscover combinations you already own without buying more.",
+    feat3Title: "NPC Companions",
+    feat3Desc: "Collect cute NPC characters that provide emotional companionship. They're here to cheer you on, not to judge your outfits.",
+    principleQuote: "Your wardrobe should make you happy, not stressed.",
+    princ1Title: "No Limits",
+    princ1Desc: "Whether you have 10 items or 1,000, we don't limit your collection. Every piece of your history is welcome here.",
+    princ2Title: "No Social Sharing",
+    princ2Desc: "This is your private space. There's no feed, no likes, and no comments. Just you and your personal style journey.",
+    princ3Title: "No Daily Outfit Pressure",
+    princ3Desc: "Forget the 'what to wear today' stress. Use the app to explore at your own pace, on your own terms.",
+    principleModalItems: [
+      "Keep your wardrobe simple & fun",
+      "Never stress over what to wear",
+      "NPCs are always here to help 😎"
+    ],
+    ctaTitle: "Ready to clean up your digital closet?",
+    sayHi: "Curious? See what I can do!",
+    supportTitle: "If you like this project or want to connect, reach me here:",
+    email: "Email: chenyuzhaocc@gmail.com",
+    linkedin: "LinkedIn: www.linkedin.com/in/chenyu-chelsea",
+    footerFeedback: "💌 Got ideas or feedback? Reach me via email or LinkedIn!",
+    footerExplore: "✨ Curious about my projects? Explore more and discover the fun!",
+    close: "Close",
+    videoControls: {
+      replay: "Replay",
+      speed: "Speed",
+      mute: "Mute",
+      unmute: "Unmute"
+    }
+  },
+  zh: {
+    appName: "穿搭天才",
+    navFeatures: "核心功能",
+    navPrinciples: "设计原则",
+    tryDemo: "尝试 Demo",
+    heroBadge: "简约 • 轻量 • 无压力",
+    heroTitle: "一个温馨的口袋衣橱",
+    heroTitleHighlight: "就在你的手机里。",
+    heroSub: "重新找回拥有衣服的快乐。没有社交压力，没有穿搭评分，只有你和你的私人风格收藏。",
+    watchPreview: "观看预览",
+    featuresTitle: "回归本质",
+    featuresSub: "没有花哨的功能，只有能让你爱上衣橱的贴心设计。",
+    feat1Title: "全方位管理",
+    feat1Desc: "无限制添加每一件单品。在精美简约的界面中轻松分类、排序和搜索你的衣物。",
+    feat2Title: "AI 重新发现",
+    feat2Desc: "让 AI 帮你找回那些被遗忘在衣柜角落的珍宝。无需购买新衣，也能发现旧衣新搭的惊喜。",
+    feat3Title: "NPC 伙伴",
+    feat3Desc: "收集可爱的 NPC 角色，为你提供情绪陪伴。它们会为你加油打气，绝不会对你的穿搭指手画脚。",
+    principleQuote: "“衣橱应该是快乐的源泉，而非压力的负担。”",
+    princ1Title: "不设限制",
+    princ1Desc: "无论你是断舍离主义者还是收藏家，我们都不限制你的收藏数量。每一段穿搭历史都值得被记录。",
+    princ2Title: "纯私密空间",
+    princ2Desc: "这是你的私人领地。没有信息流，没有点赞，没有评论。只有你自己的审美探索之旅。",
+    princ3Title: "告别穿衣焦虑",
+    princ3Desc: "忘掉“今天穿什么”的压力。按照你自己的节奏，以你喜欢的方式探索穿搭的可能性。",
+    principleModalItems: [
+      "保持衣橱简单且有趣",
+      "永远不要为穿什么而感到压力",
+      "NPC 永远在这里为你提供帮助 😎"
+    ],
+    ctaTitle: "准备好整理你的数字衣橱了吗？",
+    sayHi: "好奇吗？来看看我能做些什么！",
+    supportTitle: "如果你喜欢这个项目或想与我交流，可以通过这里联系我：",
+    email: "电子邮箱: chenyuzhaocc@gmail.com",
+    linkedin: "领英: www.linkedin.com/in/chenyu-chelsea",
+    footerFeedback: "💌 有想法或建议？通过邮件或 LinkedIn 联系我！",
+    footerExplore: "✨ 对我的项目感兴趣？探索更多，发现乐趣！",
+    close: "关闭",
+    videoControls: {
+      replay: "重播",
+      speed: "倍速",
+      mute: "静音",
+      unmute: "取消静音"
+    }
+  }
+};
